@@ -218,6 +218,7 @@ html {
 }
 
 .testimonials-container {
+    background-color: #3f3f3f;
   display: flex;
   margin-inline: auto;
   justify-content: center;
