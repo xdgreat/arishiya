@@ -29,6 +29,9 @@ html {
   align-items: center;
   margin-right: 2em;
 }
+nav {
+  padding-block-end: 3em;
+}
 .menu,
 .logo,
 .quote {
@@ -353,4 +356,11 @@ footer {
   font-size: 60px;
   font-family: sans-serif;
   margin-block: 0.5em;
+}
+
+.img-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2em 4em;
+  gap: 2em;
 }
