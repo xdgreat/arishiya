@@ -358,9 +358,19 @@ footer {
   margin-block: 0.5em;
 }
 
-.img-gallery {
+.img-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 2em 4em;
   gap: 2em;
+}
+
+.img-gallery {
+  text-align: center;
+  font-size: 40px;
+  margin-block: 2em;
+  font-family: sans-serif;
+  display: flex;
+  font-weight: 800;
+  flex-flow: column nowrap;
 }
